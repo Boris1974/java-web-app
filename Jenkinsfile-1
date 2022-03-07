@@ -1,4 +1,5 @@
 pipeline {
+    agen any
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
   }
